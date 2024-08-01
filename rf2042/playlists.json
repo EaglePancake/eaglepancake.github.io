@@ -1,0 +1,202 @@
+[
+    {
+        "Name": "CONQUEST",
+        "ID": "conquest",
+        "Active": true,
+
+        "SubEntries": [
+            {
+                "Name": "ISLAND REVAMPED",
+                "Gamemode": "Conquest",
+                //"ShortInfo": "Conquest | Archipelago | 32 V 32 | Sea/Air Vehicles Disabled",
+                "ShortInfo": "Conquest | Island",
+                "Description": "Check out the revamped Island map on foot!",
+                "Active": true,
+                "Constant": true,
+                "Source": "Cloud",
+
+                "ImageSource": "Local",
+                "ImageURL": "loading_screen/Island.png",
+
+                "Configurable": false,
+                "UseCustomConfig": true,
+                "BaseConfig": {
+                    "Map": "Island",
+                    "Team": "Blue",
+                    "BotCount": 64,
+                    "Balance": 0.5,
+                    "DisableMods": false,
+                    "VehicleFilter": [],
+                    "HasCustomLayout": false
+                }
+            },
+            {
+                "Name": "ARCHIPELAGO SUPERIORITY",
+                "Gamemode": "Conquest",
+                //"ShortInfo": "Conquest | Archipelago | 32 V 32 | Sea/Air Vehicles Disabled",
+                "ShortInfo": "Conquest | Have a wonderful day if you're reading this!",
+                "Description": "Fight it out on the central island of Archipelago with land vehicles only.",
+                "Active": true,
+                "Constant": true,
+                "Source": "Local",
+
+                "ImageSource": "Local",
+                "ImageURL": "loading_screen/Archipelago.png",
+
+                "Configurable": false,
+                "UseCustomConfig": true,
+                "BaseConfig": {
+                    "Map": "Archipelago",
+                    "Team": "Blue",
+                    "BotCount": 64,
+                    "Balance": 0.5,
+                    "DisableMods": false,
+                    "VehicleFilter": [
+                        "Land"
+                    ],
+                    "HasCustomLayout": true,
+                    "CustomLayout": {
+                        "$type": "Ravenfield2042.Gamemodes.ConquestLayout, Ravenfield2042",
+                        "targetActorCount": 64,
+                        "overviewPoint": {
+                            "pos": [
+                                331.297333,
+                                724.597961,
+                                -367.593933
+                            ],
+                            "rot": [
+                                55.47979,
+                                18.9892979,
+                                -4.519736E-05
+                            ],
+                            "fov": 48.0,
+                            "farClipPlane": 6000.0,
+                            "fogDensity": 0.0003
+                        },
+                        "hqDefinitions": [
+                            {
+                                "name": "Landing",
+                                "owner": "Blue",
+                                "pointNames": [
+                                    "Capture Point Landing"
+                                ]
+                            },
+                            {
+                                "name": "Outpost",
+                                "owner": "Red",
+                                "pointNames": [
+                                    "Capture Point Outpost"
+                                ]
+                            }
+                        ],
+                        "sectorDefinitions": [
+                            {
+                                "name": "Airstrip",
+                                "designation": "A",
+                                "pointNames": [
+                                    "Capture Point Airstrip"
+                                ]
+                            },
+                            {
+                                "name": "Harbor",
+                                "designation": "B",
+                                "pointNames": [
+                                    "Capture Point Harbor"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }        
+        ]
+    },
+    {
+        "Name": "BREAKTHROUGH [WIP]",
+        "ID": "breakthrough",
+        "Active": true,
+
+        "SubEntries": [
+            {
+                "Name": "BREAKTHROUGH",
+                "Gamemode": "Breakthrough",
+                "ShortInfo": "Standard Breakthrough | Configurable",
+                "Description": "Experience Breakthrough on Archipelago with 64 bots!",
+                "Active": true,
+                "Constant": true,
+                "Source": "Cloud",
+
+                "ImageSource": "Local",
+                "ImageURL": "loading_screen/Archipelago.png",
+                "DisableNameGlow": false,
+
+                "Configurable": true
+//                "UseCustomConfig": false,
+//                "BaseConfig": {
+//                    "Map": "Archipelago",
+//                    "Team": "Blue",
+//                    "BotCount": 64,
+//                    "Balance": 0.65,
+//                    "DisableMods": false
+//                }
+            },
+            {
+                "Name": "<color=orange>BREAKTHROUGH\nCHAOS</color>",
+                "Gamemode": "Breakthrough",
+                "ShortInfo": "Breakthrough | Archipelago | 64 V 64",
+                "Description": "Breakthrough with 128 bots, 50/50 team balance, literal hell. No mods allowed!",
+                "Active": true,
+                "Constant": true,
+                "Source": "Cloud",
+
+                "ImageSource": "Local",
+                "ImageURL": "loading_screen/Archipelago.png",
+                "DisableNameGlow": true,
+
+                "Configurable": false,
+                "UseCustomConfig": true,
+                "BaseConfig": {
+                    "Map": "Archipelago",
+                    "Team": "Blue",
+                    "BotCount": 128,
+                    "Balance": 0.5,
+                    "DisableMods": false
+                }
+            }
+        ]
+    },
+    {
+        "Name": "HARDCORE",
+        "ID": "hardcore",
+        "Active": true,
+
+        "SubEntries": [
+            {
+                "Name": "CONQUEST\n<color=red>HARDCORE</color>",
+                "Gamemode": "Conquest",
+                "ShortInfo": "Conquest Hardcore | Canyon | 48 V 48 | Increased Respawn Time",
+                "Description": "Hardcore Conquest on Canyon with 96 bots. Respawn time is 30 seconds.",
+                "Active": true,
+                "Constant": false,
+                "Source": "Cloud",
+                
+                "ImageSource": "Local",
+                "ImageURL": "loading_screen/Canyon.png",
+                "DisableNameGlow": true,
+
+                "StartTime": "2023-09-01T00:00:00",
+                "EndTime": "2023-10-01T00:00:00",
+                
+                "Configurable": false,
+                "UseCustomConfig": true,
+                "BaseConfig": {
+                    "Map": "Eagle Base",
+                    "Team": "Blue",
+                    "BotCount": 96,
+                    "RespawnTime": 30,
+                    "Balance": 0.5,
+                    "DisableMods": false
+                }
+            }
+        ]
+    }
+]
