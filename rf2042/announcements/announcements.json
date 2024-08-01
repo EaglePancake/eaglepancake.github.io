@@ -2,7 +2,7 @@
     "LargeAnnouncement": {
         "Title": "Welcome to RF2042!",
         "Message": "This mod is still very much WIP, things get added/changed/removed all the time.\n\n<color=#00FEE7><b>Remember, you're here to test!</b></color>\n\nEnjoy!",
-        "ImageURl": "https://drive.google.com/uc?export=download&id=1-mpWznrziWKt4dX6OUzxljNC4Ausv6RW",
+        "ImageURl": "https://eaglepancake.github.io/rf2042/announcements/Banner.png",
         "Active": true,
         
         "PrimaryAction": "URL",
@@ -10,10 +10,6 @@
         "ActionURL": "https://discord.gg/2BXkHtwaRK"
     },
     "SmallAnnouncements": [
-        {
-            "Message": "Added MD540 Nightbird.",
-            "AnnouncementType": "Info"
-        },
         {
             "Message": "Online check have been disabled for now!",
             "AnnouncementType": "Info"
