@@ -10,7 +10,7 @@
                 "Gamemode": "Conquest",
                 "ShortInfo": "Conquest | Dustbowl",
                 "Description": "Both teams with lots of nightbirds!",
-                "Active": false,
+                "Active": true,
                 "Constant": true,
                 "Source": "Cloud",
 
