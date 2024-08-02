@@ -1,17 +1,20 @@
 {
     "LargeAnnouncement": {
-        "Title": "Welcome to RF2042!",
-        "Message": "This mod is still very much WIP, things get added/changed/removed all the time.\n\n<color=#00FEE7><b>Remember, you're here to test!</b></color>\n\nEnjoy!",
-        "ImageURl": "https://eaglepancake.github.io/rf2042/announcements/Banner.png",
+        "Title": "MD540 Nightbird",
+        "Message": "Comes with customizable weapons & fully custom FMOD integrated sounds!",
+        "ImageURL": "https://eaglepancake.github.io/rf2042/announcements/nightbird.png",
         "Active": true,
         
-        "PrimaryAction": "URL",
-        "PrimaryActionText": "MORE INFO AT THE DISCORD!",
-        "ActionURL": "https://discord.gg/2BXkHtwaRK"
+        "PrimaryAction": "None",
+        "PrimaryActionText": "CHECK IT OUT INGAME"
     },
     "SmallAnnouncements": [
         {
             "Message": "Well it's been a while..",
+            "AnnouncementType": "Info"
+        },
+        {
+            "Message": "Added MD540 Nightbird",
             "AnnouncementType": "Info"
         }
     ]
