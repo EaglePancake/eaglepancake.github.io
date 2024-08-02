@@ -6,28 +6,42 @@
 
         "SubEntries": [
             {
-                "Name": "ISLAND REVAMPED",
+                "Name": "NIGHTBIRD MAYHEM",
                 "Gamemode": "Conquest",
-                //"ShortInfo": "Conquest | Archipelago | 32 V 32 | Sea/Air Vehicles Disabled",
-                "ShortInfo": "Conquest | Island",
-                "Description": "Check out the revamped Island map on foot!",
-                "Active": true,
+                "ShortInfo": "Conquest | Dustbowl",
+                "Description": "Both teams with lots of nightbirds!",
+                "Active": false,
                 "Constant": true,
                 "Source": "Cloud",
 
                 "ImageSource": "Local",
-                "ImageURL": "loading_screen/Island.png",
+                "ImageURL": "loading_screen/Dustbowl.png",
 
                 "Configurable": false,
                 "UseCustomConfig": true,
                 "BaseConfig": {
-                    "Map": "Island",
+                    "Map": "Dustbowl",
                     "Team": "Blue",
                     "BotCount": 64,
                     "Balance": 0.5,
                     "DisableMods": false,
-                    "VehicleFilter": [],
-                    "HasCustomLayout": false
+                    "HasCustomLayout": false,
+                    "vehicleSelection": {
+                        "Blue": {
+                            "AttackHelicopter": "nightbird",
+                            "TransportHelicopter": "nightbird",
+                            "AttackPlane": "nightbird",
+                            "BomberPlane": "nightbird",
+                            "JeepMachineGun": "nightbird"
+                        },
+                        "Red": {
+                            "AttackHelicopter": "nightbird",
+                            "TransportHelicopter": "nightbird",
+                            "AttackPlane": "nightbird",
+                            "BomberPlane": "nightbird",
+                            "JeepMachineGun": "nightbird"
+                        }
+                    }
                 }
             },
             {
