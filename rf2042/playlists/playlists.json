@@ -14,8 +14,8 @@
                 "Constant": true,
                 "Source": "Cloud",
 
-                "ImageSource": "Local",
-                "ImageURL": "loading_screen/Dustbowl.png",
+                "ImageSource": "Cloud",
+                "ImageURL": "https://eaglepancake.github.io/rf2042/announcements/nightbird.png",
 
                 "Configurable": false,
                 "UseCustomConfig": true,
